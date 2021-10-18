@@ -243,7 +243,7 @@ function purchaseChocoFroggies(gold) {
   return amountCanPurchase
 }
 
-console.log(purchaseChocoFroggies(6))
+console.log(purchaseChocoFroggies(10))
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
@@ -251,16 +251,31 @@ console.log(purchaseChocoFroggies(6))
 */
 
 //CODE HERE
-
+console.log("oops. I already solved that problem in my first solution")
 
 ////////////////// PROBLEM 15 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 /*
-  Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order. The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` and set it equal to your function invoked. Use the sample array to test this function.
+  Write a function that takes in an array of numbers as an argument. 
+  In the body of the function, write logic to determine if the array is in ascending order.
+   The function should return true, if it is sorted in ascending order, false if it is not.
+    Create a variable, `arrayIsAscending` and set it equal to your function invoked. Use the sample array to test this function.
 */
 
 //CODE HERE
+function checkAscending(numbers) {
+  let prevNum = numbers[0]
+  for (let i = 1; i < numbers.length; i++) {
+    if (prevNum > numbers[i]) {
+      return false
+    }
+    prevNum = numbers[i]
+  }
+  return true
+}
 
+let arrayIsAscending = checkAscending(sampleArray)
+console.log(arrayIsAscending)
 
 ////////////////// PROBLEM 16 ////////////////////
 
