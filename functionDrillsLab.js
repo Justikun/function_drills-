@@ -193,12 +193,17 @@ console.log(theEliminator(contestants, loser))
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
 /*
-  Write a function that takes in one argument, a string. The function should then console.log that string, in entirely uppercase characters.
+  Write a function that takes in one argument, a string. 
+  The function should then console.log that string, in entirely uppercase characters.
   Invoke the function, passing in the sampleString (above).
 */
 
 //CODE HERE
+function printToUpper(arg1) {
+  console.log(arg1.toUpperCase())
+}
 
+printToUpper(sampleString)
 
 ////////////////// PROBLEM 12 ////////////////////
 /*
@@ -211,6 +216,15 @@ let sampleString = "Hi, my name is Kylo."
   return 'must provide a valid email address'
 */
 
+function emailCheck(email) {
+  trimmedEmail = email.trim()
+  if (trimmedEmail.includes("@")) {
+    return "email verified"
+  }
+  return "must provide a valid email address"
+}
+console.log(emailCheck("thesmithguyasdf.com"))
+
 ////////////////// PROBLEM 13 ////////////////////
 /*
   Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs you were able to purchase.
@@ -218,7 +232,6 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
