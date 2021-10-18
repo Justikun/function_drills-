@@ -227,11 +227,23 @@ console.log(emailCheck("thesmithguyasdf.com"))
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
-  Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs you were able to purchase.
-  Create a variable called `totalFrogs` and set it equal to your function invoked, passing in the amount of gold you are willing to spend.
+  Write a function, naming it whatever you believe to be appropriate, 
+  that buys as many chocolate frogs as possible with a certain amount of gold.
+   Each chocolate frog costs 3 gold. Your function should take in a single parameter, 
+   which is the amount of gold you are willing to spend. 
+   Your function should return a total amount of chocolate frogs you were able to purchase.
+  Create a variable called `totalFrogs` and set it equal to your function invoked,
+   passing in the amount of gold you are willing to spend.
 */
 
 //CODE HERE
+function purchaseChocoFroggies(gold) {
+  let frogCost = 3
+  amountCanPurchase = Math.floor(gold / frogCost)
+  return amountCanPurchase
+}
+
+console.log(purchaseChocoFroggies(6))
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
