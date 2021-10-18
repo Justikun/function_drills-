@@ -49,6 +49,11 @@ greeting("Jake")
 */
 
 //CODE HERE
+function add(numb1, numb2) {
+  return parseInt(numb1) + parseInt(numb2)
+}
+
+console.log(add(2,"33 sdf 2"))
 
 
 ////////////////// PROBLEM 5 ////////////////////
