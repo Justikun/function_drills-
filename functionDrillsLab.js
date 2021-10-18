@@ -5,6 +5,10 @@
 */
 
 //CODE HERE
+function helloWorld(){
+  console.log("Hello, World!")
+}
+helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 /*
@@ -31,7 +35,10 @@ printName("Justin")
 */
 
 //CODE HERE
-
+function greeting(name) {
+  console.log(`Hello, ${name}`)
+}
+greeting("Jake")
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
