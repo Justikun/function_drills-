@@ -130,7 +130,15 @@ printAllNames(namesArr)
 */
 
 //CODE HERE
-
+function thatsOdd(num1) {
+  if (num1 % 2 === 0) {
+    return "That's not add!"
+  } else {
+    return "That is odd indeed!"
+  }
+}
+let oddChecker = thatsOdd(3)
+console.log(oddChecker)
 
 ////////////////// PROBLEM 9 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
