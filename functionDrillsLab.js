@@ -66,7 +66,17 @@ console.log(add(2,"33 sdf 2"))
 */
 
 //CODE HERE
+function nameCheck(name) {
+  if (name === "Steven") {
+    console.log(`What is up ${name}?`)
+  } else if (name == "Bryan") {
+    console.log(`Hey ${name}!`)
+  } else {
+    console.log(`Cool name, ${name}`)
+  }
+}
 
+let nameGreeting = nameCheck("Bryan")
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
