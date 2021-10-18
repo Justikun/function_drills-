@@ -89,7 +89,21 @@ let nameGreeting = nameCheck("Bryan")
 */
 
 //CODE HERE
+function faveColorFinder(color) {
+  switch(color) {
+    case "red":
+      return "red is a great color"
+    case "green":
+      return "green is a solid favourite color"
+    case "black":
+      return "so trendy"
+    default:
+      return "you need to evaluate your favourite colors choice"
+  }
+}
 
+let colorRating = faveColorFinder("purple")
+console.log(colorRating)
 
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
